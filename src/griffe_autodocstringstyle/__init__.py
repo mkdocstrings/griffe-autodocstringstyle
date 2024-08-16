@@ -5,4 +5,6 @@ Set docstring style to 'auto' for external packages.
 
 from __future__ import annotations
 
-__all__: list[str] = []
+from griffe_autodocstringstyle._internals.extension import AutoDocstringStyleExtension
+
+__all__: list[str] = ["AutoDocstringStyleExtension"]
