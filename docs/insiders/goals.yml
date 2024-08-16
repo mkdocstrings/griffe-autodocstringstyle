@@ -7,7 +7,10 @@ goals:
     features: []
   1500:
     name: HyperLamp Navigation Tips
-    features: []
+    features:
+    - name: "[Project] Set docstring style to `auto` for external packages"
+      ref: /
+      since: 2024/08/16
   2000:
     name: FusionDrive Ejection Configuration
     features: []
