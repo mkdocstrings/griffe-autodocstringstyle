@@ -1,16 +1,17 @@
 # griffe-autodocstringstyle
 
+[![ci](https://github.com/mkdocstrings/griffe-autodocstringstyle/workflows/ci/badge.svg)](https://github.com/mkdocstrings/griffe-autodocstringstyle/actions?query=workflow%3Aci)
 [![documentation](https://img.shields.io/badge/docs-mkdocs-708FCC.svg?style=flat)](https://mkdocstrings.github.io/griffe-autodocstringstyle/)
-[![gitpod](https://img.shields.io/badge/gitpod-workspace-708FCC.svg?style=flat)](https://gitpod.io/#https://github.com/mkdocstrings/griffe-autodocstringstyle)
-[![gitter](https://badges.gitter.im/join%20chat.svg)](https://app.gitter.im/#/room/#griffe-autodocstringstyle:gitter.im)
+[![pypi version](https://img.shields.io/pypi/v/griffe-autodocstringstyle.svg)](https://pypi.org/project/griffe-autodocstringstyle/)
+[![gitter](https://img.shields.io/badge/matrix-chat-4DB798.svg?style=flat)](https://app.gitter.im/#/room/#griffe-autodocstringstyle:gitter.im)
 
 Set docstring style to 'auto' for external packages.
 
 ## Installation
 
-This project is available to sponsors only, through my Insiders program.
-See Insiders [explanation](https://mkdocstrings.github.io/griffe-autodocstringstyle/insiders/)
-and [installation instructions](https://mkdocstrings.github.io/griffe-autodocstringstyle/insiders/installation/).
+```bash
+pip install griffe-autodocstringstyle
+```
 
 ## Usage
 
@@ -29,7 +30,12 @@ plugins:
           extensions:
           - griffe_autodocstringstyle:
               # only useful if your sources can't be found
-              # in the current working directory 
+              # in the current working directory
               exclude:
               - my_package
 ```
+
+## Sponsors
+
+<!-- sponsors-start -->
+<!-- sponsors-end -->
