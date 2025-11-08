@@ -1,0 +1,12 @@
+# griffe-autodocstringstyle
+
+> Set docstring style to 'auto' for external packages.
+
+## Usage
+
+- [Overview](https://mkdocstrings.github.io/griffe-autodocstringstyle/index.md)
+
+## API
+
+- [API reference](https://mkdocstrings.github.io/griffe-autodocstringstyle/reference/api/index.md)
+
