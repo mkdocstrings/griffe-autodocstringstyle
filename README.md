@@ -14,7 +14,7 @@ and [installation instructions](https://mkdocstrings.github.io/griffe-autodocstr
 
 ## Usage
 
-[Enable(https://mkdocstrings.github.io/griffe/guide/users/extending/#using-extensions)] the `griffe_autodocstringstyle` extension. Now all packages loaded from a virtual environment will have their docstrings parsed with the `auto` style (automatically guessing the docstring style).
+[Enable](https://mkdocstrings.github.io/griffe/guide/users/extending/#using-extensions) the `griffe_autodocstringstyle` extension. Now all packages loaded from a virtual environment will have their docstrings parsed with the `auto` style (automatically guessing the docstring style).
 
 Use the `exclude` option to pass package names that shouldn't be considered. This can be useful if you must first install your sources as a package before loading/documenting them (meaning they end up in the virtual environment too).
 
