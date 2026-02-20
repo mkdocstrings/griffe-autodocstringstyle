@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 <!-- insertion marker -->
+## [0.2.1](https://github.com/mkdocstrings/griffe-autodocstringstyle/releases/tag/0.2.1) - 2026-02-20
+
+<small>[Compare with 0.2.0](https://github.com/mkdocstrings/griffe-autodocstringstyle/compare/0.2.0...0.2.1)</small>
+
+### Build
+
+- Depend on griffelib instead of griffe ([650814f](https://github.com/mkdocstrings/griffe-autodocstringstyle/commit/650814f784a7ec8e65ecb5588e48b05aad5adc9e) by Timothée Mazzucotelli).
+
 ## [0.2.0](https://github.com/mkdocstrings/griffe-autodocstringstyle/releases/tag/0.2.0) - 2025-11-08
 
 <small>[Compare with 0.1.0](https://github.com/mkdocstrings/griffe-autodocstringstyle/compare/0.1.0...0.2.0)</small>
