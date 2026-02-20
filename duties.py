@@ -126,7 +126,7 @@ def docs_deploy(ctx: Context) -> None:
             "push": True,
             "force": True,
         },
-        title="Deploying site to GitHub pages",
+        title="Deploying site to GitHub Pages",
         command="ghp-import site -fpm 'chore: Update documentation'",
         pty=PTY,
     )
@@ -146,8 +146,8 @@ def format(ctx: Context) -> None:
 def build(ctx: Context) -> None:
     """Build source and wheel distributions."""
     ctx.run(
-        tools.build(),
-        title="Building source and wheel distributions",
+        ["uv", "build"],
+        title="Building distributions",
         pty=PTY,
     )
 
@@ -157,10 +157,10 @@ def publish(ctx: Context) -> None:
     """Publish source and wheel distributions to PyPI."""
     if not Path("dist").exists():
         ctx.run("false", title="No distribution files found")
-    dists = [str(dist) for dist in Path("dist").iterdir()]
+    dists = [str(dist) for dist in Path("dist").iterdir() if dist.suffix in (".tar.gz", ".whl")]
     ctx.run(
         tools.twine.upload(*dists, skip_existing=True),
-        title="Publishing source and wheel distributions to PyPI",
+        title="Publishing distributions to PyPI",
         pty=PTY,
     )
 
