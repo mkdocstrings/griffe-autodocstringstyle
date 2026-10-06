@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 <!-- insertion marker -->
+## [0.2.2](https://github.com/mkdocstrings/griffe-autodocstringstyle/releases/tag/0.2.2) - 2026-10-06
+
+<small>[Compare with 0.2.1](https://github.com/mkdocstrings/griffe-autodocstringstyle/compare/0.2.1...0.2.2)</small>
+
+### Build
+
+- Drop support for Python 3.10 ([ce094bc](https://github.com/mkdocstrings/griffe-autodocstringstyle/commit/ce094bce37685633c1b738737984f5db55584f14) by Timothée Mazzucotelli).
+
 ## [0.2.1](https://github.com/mkdocstrings/griffe-autodocstringstyle/releases/tag/0.2.1) - 2026-02-20
 
 <small>[Compare with 0.2.0](https://github.com/mkdocstrings/griffe-autodocstringstyle/compare/0.2.0...0.2.1)</small>
